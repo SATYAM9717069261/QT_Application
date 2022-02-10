@@ -8,7 +8,7 @@ Laptop::~Laptop(){
     qInfo()<<this<<" Destroy";
 }
 int Laptop::asKilo(){
-    return weight *12;
+    return this->weight *12;
 }
 
 void Laptop::test(){
